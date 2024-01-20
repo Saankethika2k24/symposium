@@ -170,6 +170,39 @@ video {
         margin-top: 10px;
     }
 }
+
+
+@media screen and (max-width: 450px) {
+    .navbar {
+        flex-direction: column;
+        width:1000px;
+        align-items: flex-start;
+    }
+    .landing-page {
+        width: 1000px;
+    }
+    .content {
+        font-size: medium;
+    }
+    .content h1 {
+        font-size:lsrge;
+    }
+    .content-container{
+        height: 100%;
+        margin-right: 10%px;
+        overflow: scroll;
+    }
+    .photo-container img {
+      width: 0px;  
+    }
+    .footer{
+        width: 1000px;
+    }
+    .roww{
+        /* background-color: #000000; */
+        /* padding-left: 1000px; */
+    }
+
 @media screen and (max-width: 1023px) {
     .content-container{
         height: 100%;
