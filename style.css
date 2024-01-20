@@ -170,8 +170,6 @@ video {
         margin-top: 10px;
     }
 }
-
-
 @media screen and (max-width: 450px) {
     .navbar {
         flex-direction: column;
@@ -184,17 +182,12 @@ video {
     .content {
         font-size: medium;
     }
-    .content h1 {
-        font-size:lsrge;
-    }
     .content-container{
         height: 100%;
-        margin-right: 10%px;
-        overflow: scroll;
+        /* margin-right: 10%; */
+        overflow:scroll
     }
-    .photo-container img {
-      width: 0px;  
-    }
+    
     .footer{
         width: 1000px;
     }
@@ -202,7 +195,25 @@ video {
         /* background-color: #000000; */
         /* padding-left: 1000px; */
     }
+    .container{
+        width: 1000px;
+    }
+    .photo-container img {
+        max-width: 100%;
+        max-height: 100%;
+        animation: fadeIn 2s ease-in-out forwards; /* Add animation for the photo */
+    }
+    #schedulee{
+        width: 900px;
+        margin-left: 10%;
+    }
+    .fonts{
+        font-size:small;
+    }
 
+
+
+}
 @media screen and (max-width: 1023px) {
     .content-container{
         height: 100%;
@@ -211,10 +222,10 @@ video {
     .photo-container img {
         max-width: 100%;
         max-height: 100%;
-        animation: fadeIn 2s ease-in-out forwards; /* Add animation for the photo */
+        animation: fadeIn 2s ease-in-out forwards; 
     }
     
-}
+} 
 @media screen and (max-width: 2000px) {
     .section-with-bg1{
         margin-top: 20%;
