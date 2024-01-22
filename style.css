@@ -226,7 +226,7 @@ video {
     }
     
 } 
-@media screen and (max-width: 2000px) {
+media screen and (max-width: 2000px) {
     .section-with-bg1{
         margin-top: 20%;
     }
